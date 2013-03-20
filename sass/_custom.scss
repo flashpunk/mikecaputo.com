@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,800);
+$raleway:'Raleway', sans-serif;
+body{background:darken(#FFF,3%);}
+h1,h2,h3,h4,h5{font-family:$raleway;font-weight:400;
+	strong{font-weight:500;}
+}
+.cent{text-align:center;}
+.photo{background-attachment: fixed;background-position: 50% 0;background-repeat: no-repeat;height:400px;position: relative;
+	&.jump{background-image:url('../images/jump.png');height:600px;}
+}
+
+img{
+	&.face{border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;margin:0 0 10px;border: 1px solid darken(#FFF,5%);}
+}
