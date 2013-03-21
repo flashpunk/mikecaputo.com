@@ -1,0 +1,598 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is_user",
+				"is_user_logged_in"
+			],
+			[
+				"dark",
+				"darkBrown"
+			],
+			[
+				"gre",
+				"lightGrey"
+			],
+			[
+				"list-st",
+				"list-style-position"
+			],
+			[
+				"current",
+				"current_post_type"
+			],
+			[
+				"ftp",
+				"ftp_passive_mode"
+			],
+			[
+				"list-style",
+				"list-style"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"main",
+				"mainGreen"
+			],
+			[
+				"green",
+				"mainGreen"
+			],
+			[
+				"nav",
+				"navBarHeight"
+			],
+			[
+				"da",
+				"darkHeading"
+			],
+			[
+				"post",
+				"postSpacing"
+			],
+			[
+				"po",
+				"postSpacing"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"is_page",
+				"is_page_template"
+			],
+			[
+				"footer",
+				"footer_left_column"
+			],
+			[
+				"get_template",
+				"get_template_part"
+			],
+			[
+				"site",
+				"siteFont"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 211.0,
+		"selected_items":
+		[
+			[
+				"zurb",
+				"Snippet: Zurb 2 Column Layout"
+			],
+			[
+				"foundation",
+				"Snippet: Zurb Foundation - ul Block Grid - Two up"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install	",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sftp",
+				"Preferences: SFTP Settings"
+			],
+			[
+				"new",
+				"File: New View into File"
+			],
+			[
+				"wordpress",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"postty",
+				"Snippet: Custom Post Type: Register"
+			],
+			[
+				"lorum",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snippet: register",
+				"Snippet: Custom Post Type: Register"
+			],
+			[
+				"snippet: cus",
+				"Snippet: Custom Post Type: Register"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Snippet: cpt",
+				"Snippet: WP Config (complete)"
+			],
+			[
+				"snipp",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/mc/index.php",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-panel.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-alert-box.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-labels.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-inline-list.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-button.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-button-group.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-side-nav.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-top-bar.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-breadcrumbs.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-sub-nav.sublime-snippet",
+		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/.gitignore",
+		"/Applications/MAMP/htdocs/foundation-snippets/snippets/f4-pagination-centered.sublime-snippet",
+		"/Applications/MAMP/htdocs/foundation-snippets/snippets/f4-cust-col.sublime-snippet",
+		"/Applications/MAMP/htdocs/foundation-snippets/snippets/f4-cust-block-grid.sublime-snippet",
+		"/Applications/MAMP/htdocs/foundation-snippets/f4-cust-col.sublime-snippet",
+		"/Applications/MAMP/htdocs/foundation-snippets/foundation4.sublime-snippet",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/User/foundation4.sublime-snippet",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/User/Media Query.sublime-snippet",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/User/Media Query Large.sublime-snippet",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/F47A81AB-CD07-4F5F-9232-F3091D4B3A8F/single-success.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/sidebar.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/98A80F0B-B856-489E-9EE9-E820FA9FFA91/header.php",
+		"/Users/mike/Desktop/penn.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/2F33E7B7-6A39-48EE-92ED-B172AEC28219/wp-config.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/C1812CB8-5749-436F-A6F4-28EAA0FAC0B9/sidebar.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/A3C4BF45-0C78-4391-9D38-5FAC85C7AC02/app.scss",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/header.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/module-staticNav.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/module-nav.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/footer.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/_notes/dwsync.xml",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/javascripts/app.js",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/app/app.js",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/app/app.css",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/theme-specific/_theme_specific_init.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/theme-specific/taxonomy.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/16669529-2923-4F1C-BC36-C7B5F7AB7237/index.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/AAC2BD5E-5054-40FA-ADC1-2631F7BCEF3A/index.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/images/rightCol-flag.png",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/images/bg-sidebarSubscribe.gif",
+		"/Applications/MAMP/htdocs/OUSA/js/app.js",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/index.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/options.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/page-full.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/functions.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/images/headerBookCover.png",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/stylesheets/tools.scss",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/global/theme-functions.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/init.php",
+		"/Applications/MAMP/htdocs/MOMO/framework/init.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/options/options-framework.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/options/upgrade.php",
+		"/Applications/MAMP/htdocs/beaus/wp-content/themes/beaus-mixtape/options.php",
+		"/Applications/MAMP/htdocs/beaus/wp-content/themes/beaus-mixtape/framework/init.php",
+		"/Applications/MAMP/htdocs/beaus/wp-content/themes/beaus-mixtape/framework/global/theme-functions.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/rtl.css",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/theme-specific/javascript.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/stylesheets/foundation.scss",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/images/pbf_ebook_sm.png",
+		"/Users/mike/Desktop/foundation/stylesheets/foundation.css",
+		"/Users/mike/Desktop/AllThemify/responz/header.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/MDA.sublime-workspace",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/D15820B8-C836-4A73-A56C-4EEF420BEA84/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/641D518C-7393-48CF-8B84-64D70631D706/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/0FB50C70-BE94-49C1-BE97-589F09ED0256/footer.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/C86A7891-0875-4FBD-9E5A-070BDFAB21BA/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/0CF715BB-1B79-4095-8A4E-9947EF454856/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/967D3808-FD2B-49DE-BCC1-7D41C7947B74/p.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/054087C0-C66C-4EB8-A5E2-754F9DA2D936/.htpasswd",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/11456435-EC16-425B-91AE-50DE78BE28B3/.htpasswd",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/0B6BE5A1-298B-4D32-BA2D-77F67F349F14/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/8D37CEFE-1040-43D6-908E-3F7B5A42E017/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/7FC5BE55-EE3F-41C8-BB88-E691F17E2C12/.htaccess",
+		"/Applications/MAMP/htdocs/Help-Desk-Geek/js/foundation.min.js",
+		"/Applications/MAMP/htdocs/Help-Desk-Geek/js/app.js",
+		"/Applications/MAMP/htdocs/theblogstudio.com/wp/wp-content/themes/TBS-V10/stylesheets/tools.scss",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/js/site.js",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/searchform.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/stylesheets/app.scss",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/javascripts/foundation.min.js",
+		"/Users/mike/Desktop/foundation/javascripts/foundation.min.js",
+		"/Users/mike/Desktop/foundation/javascripts/jquery.foundation.tabs.js",
+		"/Users/mike/Desktop/foundation/javascripts/modernizr.foundation.js",
+		"/Users/mike/Desktop/foundation/stylesheets/app.css",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/MDA.sublime-project",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/mike/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/images/right-header-bg.png",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/images/button-preorderTheBook.gif",
+		"/Users/mike/Desktop/foundation-1/stylesheets/foundation.css",
+		"/Users/mike/Desktop/foundation/javascripts/jquery.js",
+		"/Users/mike/Desktop/foundation/javascripts/app.js",
+		"/Applications/MAMP/htdocs/battlefield-maps/wp-content/themes/BattlefieldMaps/header.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/sftp-config.json",
+		"/Users/mike/Desktop/style.scss",
+		"/Users/mike/Desktop/style.css",
+		"/Users/mike/Desktop/foundation/index.html",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/app/modernizr.foundation.js",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/js/jquery-latest.js",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/theme-specific/widgets.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/framework/theme-specific/sidebars.php",
+		"/Applications/MAMP/htdocs/battlefield-maps/wp-content/themes/BattlefieldMaps/functions.php",
+		"/Applications/MAMP/htdocs/Marks-Daily-Apple-Responsive/style.css",
+		"/Applications/MAMP/htdocs/MDA/index.php",
+		"/Applications/MAMP/htdocs/MDA/wordpress/wp-config.php",
+		"/Applications/MAMP/htdocs/MDA/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/6CEC3A96-713E-48CA-A8D7-C8E0439AF569/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/19E4FAA5-527A-434B-BF58-CB589312223D/index.php",
+		"/Applications/MAMP/htdocs/MDA/index_temp.php",
+		"/Applications/MAMP/htdocs/MDA/index_construction.php",
+		"/Applications/MAMP/htdocs/MDA/wordpress/wp-config-sample.php",
+		"/Applications/MAMP/htdocs/haytersfarm.com/wp/wp-config.php",
+		"/Applications/MAMP/htdocs/positivelypositive/wp-config.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/6C03577C-069E-47CB-BAA2-E87C21B5FCF0/.htaccess",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/BFEAF06F-E55E-4552-9301-472EAED424B0/wp-config.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/C2A9982B-9D0B-4B4A-9128-1B629ACECA08/wp-config.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/161B3D3B-7A0A-4B72-9117-8C55831AC0F4/index.php",
+		"/Applications/MAMP/htdocs/CMW Tabs/style.scss",
+		"/Applications/MAMP/htdocs/CMW Tabs/index.html",
+		"/Users/mike/Desktop/gridinator.html",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/76170F74-7A43-4E88-8D77-9E1EE5C6A90B/index.php",
+		"/Applications/MAMP/htdocs/MixedNation/footer.php",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/6328D8A8-EF5C-47D1-A3E7-6535F7FC4D3E/.htaccess",
+		"/Applications/MAMP/htdocs/MixedNation/sftp-config.json",
+		"/Applications/MAMP/htdocs/MixedNation/header.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"header.php",
+			"",
+			"index.html",
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".comments",
+			"comments div",
+			".comments",
+			"twitter",
+			"images/right-header-bg",
+			"headerRight",
+			"footerContent",
+			"#contentColumn",
+			"@",
+			"@contentColumn",
+			"contentColumn",
+			"#pagination",
+			"block-grid",
+			"sidebarFlickr",
+			"footerNavigation",
+			"#sidebar",
+			"sidebar",
+			"twitter",
+			".successTeaser",
+			"successWrapper",
+			"#contentContainer",
+			"style=\"",
+			"width",
+			"#readTheIntroForm",
+			"form#readTheIntroForm",
+			"commentFooter",
+			"headerRight",
+			"header #header #headerRight .rightSide img",
+			".top-bar",
+			".top-bar ul>li a:not",
+			".top-bar ul>li a:not(.button)",
+			"text",
+			"textbox",
+			"optionsframework_init",
+			"options",
+			"optionsframework_init",
+			"options",
+			"optionsframework_init",
+			".touch",
+			".is-touch",
+			"40px",
+			"55px",
+			"nav-bar",
+			"top-bar",
+			"has-flyout",
+			"floatRight",
+			"top-bar",
+			"id=\"current\"",
+			"nav-bar",
+			"top-bar",
+			"#header",
+			"headerContainer#'",
+			"headerContainer#",
+			"header",
+			"headerContainer",
+			"#sidebar",
+			"subscribeheader",
+			".button",
+			"subscribeHeader",
+			".button",
+			"a.rssFooterIcon",
+			"form",
+			"#footer form#subscribeBox",
+			"cse-search-box",
+			"#sidebar",
+			"google_translate_element",
+			"#sidebar",
+			"#sidebar .widget",
+			"#sidebar .widget h4",
+			"sidebarHolder",
+			"active.addClass",
+			"active.addClass('active",
+			"#s",
+			"#sidebar",
+			"#SIDEBAR",
+			"tabs",
+			"Tabs",
+			"tabs",
+			"tab",
+			"twitter",
+			"platform",
+			"platform.",
+			"aligncenter",
+			"alignRight",
+			"#contentColumn div.postLiner div.postContent img",
+			".row { width: 960px; max-width: 100%; min-width: 768px; margin: 0 auto; }\n#contentColumn",
+			"#contentColumn",
+			".row { width: 960px; max-width: 100%; min-width: 768px; margin: 0 auto; }\nmax-width",
+			"max-width",
+			"4",
+			"max-width",
+			"#sidebar",
+			".sidebarHolder",
+			".sidebarHolder ul",
+			" box",
+			"=",
+			"Box",
+			"box",
+			"#sidebar",
+			"sidebar",
+			"#sidebar",
+			"#Sidebar",
+			"sidebar",
+			"subscribeSidebar",
+			"cse-search-box",
+			".top-bar ul > li.has-dropdown .dropdown li",
+			".top-bar ul>li.has-dropdown .dropdown li",
+			"nav",
+			"dropdown",
+			".dropdown",
+			".top-bar ul>li.has-dropdown .dropdown",
+			"footerSidebar",
+			"#subscribeSidebar",
+			".top-bar ul>li a:not(.button)",
+			"#contentColumn",
+			"fixed",
+			"language",
+			"theblog",
+			"#footer",
+			"#header",
+			"container_12",
+			".top-bar",
+			"flyout",
+			"768",
+			"76",
+			"72",
+			"ul",
+			"body"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"active\"",
+			"class=\"current\"",
+			"dropdown",
+			"class=\"wrapper clearfix",
+			"mixednation.com/wp",
+			"sharing",
+			"echo sharing_display();",
+			"sharing_display()",
+			"$sharing",
+			"sharing_display();",
+			"MixedNation.com ",
+			"MixedNation.com",
+			"bannerRotator_",
+			"bannerRotator_text_",
+			"",
+			"<a href=\"#\"><img src=\"images/family.gif\" /></a>",
+			"<img src=\"images/family.gif\" />",
+			"980px",
+			"960px",
+			"nine columns mobile-three content",
+			"<div class=\"nine columns mobile-three\">",
+			"<div class=\"three columns mobile-one\">",
+			"",
+			"splash",
+			"color:red;",
+			"<span style=\"color:red\">*</span>",
+			"</div>",
+			"<div class=\"row\">",
+			"$transitionTime",
+			"strong",
+			" h4",
+			" ",
+			"h3",
+			"",
+			"floatLeft",
+			"img style=\"margin-top:10px;margin-bottom:10px;\" src",
+			"img style=\"margin:10px 0;\" src",
+			"echo 'Home';",
+			"<img src=\"holder.js/300x200\" style=\"border:1px solid #CCC;\" />",
+			"$navColor",
+			"\" ",
+			"=\"",
+			"<span class=\"red\">*</span>",
+			"life_at_tags"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 255.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"stylesheets/MN Forum CSS.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": false
+}
