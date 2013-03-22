@@ -1,5 +1,16 @@
+// fonts
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600,800);
+
+// variables
 $raleway:'Raleway', sans-serif;
+$headerAnimateTime:60s;
+
+// animation
+@-webkit-keyframes animate-bg {0% {background-position: 0 0;}100% {background-position: -100px -644px;}}
+@-moz-keyframes animate-bg {0% {background-position: 0 0;}100% {background-position: -100px -644px;}}
+@keyframes animate-bg {0% {background-position: 0 0;}100% {background-position: -100px -644px;}}
+
+// css
 body{background:darken(#FFF,3%);}
 h1,h2,h3,h4,h5{font-family:$raleway;font-weight:400;
 	strong{font-weight:500;}
@@ -9,6 +20,17 @@ h1,h2,h3,h4,h5{font-family:$raleway;font-weight:400;
 	&.jump{background-image:url('../images/jump.png');height:600px;}
 }
 
-img{
-	&.face{border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;margin:0 0 10px;border: 1px solid darken(#FFF,5%);}
+
+header{background:url('../images/grey2X.png');border-bottom:1px solid #ccc;
+	-webkit-box-shadow: inset 0px -5px 20px 0px rgba(0, 0, 0, .15);
+	box-shadow: inset 0px -5px 20px 0px rgba(0, 0, 0, .15);
+	-webkit-animation: animate-bg $headerAnimateTime linear;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation: animate-bg $headerAnimateTime linear;
+	-moz-animation-iteration-count: infinite;
+	animation: animate-bg $headerAnimateTime linear;
+	animation-iteration-count: infinite;
+	img{
+		&.face{border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;margin:0 0 10px;border: 1px solid darken(#FFF,5%);}
+	}
 }

@@ -21,23 +21,25 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 	<script src="javascripts/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-	<div class="row">
-		<div class="large-10 small-11 small-centered large-centered columns">
-			<div class="row">
-				<div class="large-10 small-12 large-centered columns">
-					<h1 class="cent">Hi My name is Michael Caputo</h1>
+	<header>
+		<div class="row">
+			<div class="large-10 small-11 small-centered large-centered columns">
+				<div class="row">
+					<div class="large-10 small-12 large-centered columns">
+						<h1 class="cent">Hi My name is Michael Caputo</h1>
+					</div>
+					<div class="large-5 small-9 small-centered columns">
+						<img src="images/color-headshot.png" class="face" />
+					</div>
 				</div>
-				<div class="large-5 small-9 small-centered columns">
-					<img src="images/color-headshot.png" class="face" />
-				</div>
-			</div>
-			<div class="row">
-				<div class="large-11 small-12 large-centered columns">
-					<h2 class="cent subheader lead">I am a front end web developer with more than <strong><?php echo $number_of_days; ?></strong> of professional experience, proudly based in Toronto, Ontario.</h2>
+				<div class="row">
+					<div class="large-11 small-12 large-centered columns">
+						<h2 class="cent subheader lead">I am a front end web developer with more than <strong><?php echo $number_of_days; ?></strong> of professional experience, proudly based in Toronto, Ontario.</h2>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</header>
 	<div class="row">
 		<div class="large-8 large-centered columns">
 				<h3><strong>A Little About Me</strong></h3>
