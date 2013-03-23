@@ -185,6 +185,8 @@
 	"file_history":
 	[
 		"/Applications/MAMP/htdocs/mc/index.php",
+		"/Applications/MAMP/htdocs/mc/sass/_custom.scss",
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/74426A06-9DF6-4AA1-BD70-797A449D9835/sidebar.php",
 		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-panel.sublime-snippet",
 		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-alert-box.sublime-snippet",
 		"/Applications/MAMP/htdocs/Zurb-Foundation-Snippets/snippets/f4-labels.sublime-snippet",
@@ -309,9 +311,7 @@
 		"/Users/mike/Desktop/gridinator.html",
 		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/76170F74-7A43-4E88-8D77-9E1EE5C6A90B/index.php",
 		"/Applications/MAMP/htdocs/MixedNation/footer.php",
-		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/6328D8A8-EF5C-47D1-A3E7-6535F7FC4D3E/.htaccess",
-		"/Applications/MAMP/htdocs/MixedNation/sftp-config.json",
-		"/Applications/MAMP/htdocs/MixedNation/header.php"
+		"/Users/mike/Library/Caches/Cleanup At Startup/Transmit/6328D8A8-EF5C-47D1-A3E7-6535F7FC4D3E/.htaccess"
 	],
 	"find":
 	{

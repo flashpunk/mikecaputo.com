@@ -18,9 +18,55 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 	<meta name="viewport" content="width=device-width" />
 	<title>Foundation 4</title>
 	<link rel="stylesheet" href="stylesheets/app.css" />
-	<script src="javascripts/vendor/custom.modernizr.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/4.0.9/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
+	<div id="nav">
+					<div class="sticky">
+						<nav class="top-bar">
+							<ul class="title-area">
+								<li class="name"><h1><a href="#">Navigation</a></h1></li>
+								<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+							</ul>
+							<section class="top-bar-section">
+								<ul class="left">
+									<li class="divider"></li>
+									<li><a href="#about">About Me</a></li>
+									<li class="has-dropdown"><a href="#clients">Clients</a>
+										<ul class="dropdown">
+											<li class="has-dropdown"><a href="#">Responsive/Mobile</a>
+												<ul class="dropdown">
+													<li><a href="http://www.positivelypositive.com/" target="_blank">Positively Positive</a></li>
+													<li><a href="http://www.newcollege.utoronto.ca/" target="_blank">New College UofT</a></li>
+													<li><a href="http://www.revmodo.com" target="_blank">Revmodo</a></li>
+													<li><a href="http://www.ousa.ca/" target="_blank">Ontario Undergraduate Student Alliance</a></li>
+													<li><a href="http://www.helpdeskgeek.com" target="_blank">Help Desk Geek</a></li>
+												</ul>
+											</li>
+											<li class="has-dropdown"><a href="#">Non Responsive</a>
+												<ul class="dropdown">
+													<li><a href="http://www.zerofootprint.net/" target="_blank">ZeroFootprint</a></li>
+													<li><a href="http://www.brucepower.com/" target="_Blank">Bruce Power</a></li>
+													<li><a href="http://www.chiropracticcanada.ca/" target="_blank">Canadian Chiropractic Association</a></li>
+													<li><a href="http://www.cheapeatsguides.com" target="_blank">CheapEats Guides</a></li>
+													<li><a href="http://www.cofps.ca/" target="_blank">Coalition of Family Physicians &amp; Specialists of Ontario</a></li>
+													<li><a href="http://www.ecorazzi.com/" target="_blank">Ecorazzi</a></li>
+													<li><a href="http://www.maplemusic.com/" target="_blank">Maple Music</a></li>
+													<li><a href="http://www.audioblood.com/" target="_blank">Audioblood</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li><a href="#experience">Experience</a></li>
+								</ul>
+								<ul class="right">
+									<li><a href="#experience">Contact me</a></li>
+									<li><a href="#experience">Download CV</a></li>
+								</ul>
+							</section>
+						</nav>
+					</div>
+	</div>
 	<header>
 		<div class="row">
 			<div class="large-10 small-11 small-centered large-centered columns">
@@ -40,10 +86,10 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 			</div>
 		</div>
 	</header>
-	<div class="row">
+
+	<div class="row" id="about">
 		<div class="large-8 large-centered columns">
 				<h3><strong>A Little About Me</strong></h3>
-				<p>Hi, my name is Michael Caputo.</p>
 				<p>I've been working as a designer and developer for 8+ years. My passion for everything web related started when I was very young and has continued to today where I make the web 'go'. My clients </p>
 				<p>Since then I have  my experience includes front end development using the latest standards based HTML5 and CSS3 techniques. I have extensive experience working with various CMS software platforms such as Wordpress and Expression Engine.</p>
 				<p>In my free time I play guitar in a band called <a href="http://www.thereasonmusic.com">The Reason</a>. Performing music has allowed me to travel extensively around the world. It has given me the opportunity to see places from a much different perspective than most people have the chance to.</p>
@@ -59,7 +105,7 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="clients">
 		<div class="large-3 columns">
 			<h3 class="rw"><strong>Clients I've Worked With</strong></h3>
 		</div>
@@ -90,7 +136,7 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row" id="experience">
 		<div class="large-3 columns">
 			<h3 class="rw"><strong>Technical Experience</strong></h3>
 		</div>
