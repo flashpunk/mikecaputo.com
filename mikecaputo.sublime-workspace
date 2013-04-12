@@ -87,13 +87,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 11431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_custom.scss",
+			"settings":
+			{
+				"buffer_size": 1460,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 31614,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 211.0,
+		"height": 51.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"zurb",
 				"Snippet: Zurb 2 Column Layout"
@@ -112,10 +140,6 @@
 			],
 			[
 				"install	",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -335,6 +359,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dropdown.large",
+			"has-dropdown",
+			"hover",
+			"contain-to-grid",
 			".comments",
 			"comments div",
 			".comments",
@@ -458,11 +486,7 @@
 			"container_12",
 			".top-bar",
 			"flyout",
-			"768",
-			"76",
-			"72",
-			"ul",
-			"body"
+			"768"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -524,8 +548,99 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 11431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3008,
+								3008
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1176.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/_custom.scss",
+					"settings":
+					{
+						"buffer_size": 1460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								1319
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 31614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30751,
+								30751
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 24200.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

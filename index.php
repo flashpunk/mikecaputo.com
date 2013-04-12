@@ -16,56 +16,58 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Foundation 4</title>
+	<title><?php  // bloginfo( 'name' ); ?> - Designer & Rock Star</title>
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="stylesheets/app.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/4.0.9/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
 	<div id="nav">
-					<div class="sticky">
-						<nav class="top-bar">
-							<ul class="title-area">
-								<li class="name"><h1><a href="#">Navigation</a></h1></li>
-								<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+		<div class="sticky">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name"><h1><a href="#">Navigation</a></h1></li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+				</ul>
+				<section class="top-bar-section">
+					<ul class="left">
+						<li class="divider"></li>
+						<li><a href="#about">About Me</a></li>
+						<li class="has-dropdown"><a href="#clients">Clients</a>
+							<ul class="dropdown">
+								<li class="has-dropdown"><a href="#">Responsive/Mobile</a>
+									<ul class="dropdown">
+										<li><a href="http://www.positivelypositive.com/" target="_blank">Positively Positive</a></li>
+										<li><a href="http://www.newcollege.utoronto.ca/" target="_blank">New College UofT</a></li>
+										<li><a href="http://www.revmodo.com" target="_blank">Revmodo</a></li>
+										<li><a href="http://www.ousa.ca/" target="_blank">Ontario Undergraduate Student Alliance</a></li>
+										<li><a href="http://www.helpdeskgeek.com" target="_blank">Help Desk Geek</a></li>
+									</ul>
+								</li>
+								<li class="has-dropdown"><a href="#">Non Responsive</a>
+									<ul class="dropdown">
+										<li><a href="http://www.zerofootprint.net/" target="_blank">ZeroFootprint</a></li>
+										<li><a href="http://www.brucepower.com/" target="_Blank">Bruce Power</a></li>
+										<li><a href="http://www.chiropracticcanada.ca/" target="_blank">Canadian Chiropractic Association</a></li>
+										<li><a href="http://www.cheapeatsguides.com" target="_blank">CheapEats Guides</a></li>
+										<li><a href="http://www.cofps.ca/" target="_blank">Coalition of Family Physicians &amp; Specialists of Ontario</a></li>
+										<li><a href="http://www.ecorazzi.com/" target="_blank">Ecorazzi</a></li>
+										<li><a href="http://www.maplemusic.com/" target="_blank">Maple Music</a></li>
+										<li><a href="http://www.audioblood.com/" target="_blank">Audioblood</a></li>
+									</ul>
+								</li>
 							</ul>
-							<section class="top-bar-section">
-								<ul class="left">
-									<li class="divider"></li>
-									<li><a href="#about">About Me</a></li>
-									<li class="has-dropdown"><a href="#clients">Clients</a>
-										<ul class="dropdown">
-											<li class="has-dropdown"><a href="#">Responsive/Mobile</a>
-												<ul class="dropdown">
-													<li><a href="http://www.positivelypositive.com/" target="_blank">Positively Positive</a></li>
-													<li><a href="http://www.newcollege.utoronto.ca/" target="_blank">New College UofT</a></li>
-													<li><a href="http://www.revmodo.com" target="_blank">Revmodo</a></li>
-													<li><a href="http://www.ousa.ca/" target="_blank">Ontario Undergraduate Student Alliance</a></li>
-													<li><a href="http://www.helpdeskgeek.com" target="_blank">Help Desk Geek</a></li>
-												</ul>
-											</li>
-											<li class="has-dropdown"><a href="#">Non Responsive</a>
-												<ul class="dropdown">
-													<li><a href="http://www.zerofootprint.net/" target="_blank">ZeroFootprint</a></li>
-													<li><a href="http://www.brucepower.com/" target="_Blank">Bruce Power</a></li>
-													<li><a href="http://www.chiropracticcanada.ca/" target="_blank">Canadian Chiropractic Association</a></li>
-													<li><a href="http://www.cheapeatsguides.com" target="_blank">CheapEats Guides</a></li>
-													<li><a href="http://www.cofps.ca/" target="_blank">Coalition of Family Physicians &amp; Specialists of Ontario</a></li>
-													<li><a href="http://www.ecorazzi.com/" target="_blank">Ecorazzi</a></li>
-													<li><a href="http://www.maplemusic.com/" target="_blank">Maple Music</a></li>
-													<li><a href="http://www.audioblood.com/" target="_blank">Audioblood</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li><a href="#experience">Experience</a></li>
-								</ul>
-								<ul class="right">
-									<li><a href="#experience">Contact me</a></li>
-									<li><a href="#experience">Download CV</a></li>
-								</ul>
-							</section>
-						</nav>
-					</div>
+						</li>
+						<li><a href="#experience">Experience</a></li>
+					</ul>
+					<ul class="right">
+						<li><a href="#experience">Contact me</a></li>
+						<li><a href="#experience">Download CV</a></li>
+					</ul>
+				</section>
+			</nav>
+		</div>
 	</div>
 	<header>
 		<div class="row">
@@ -86,28 +88,38 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 			</div>
 		</div>
 	</header>
-
-	<div class="row" id="about">
-		<div class="large-8 large-centered columns">
-				<h3><strong>A Little About Me</strong></h3>
-				<p>I've been working as a designer and developer for 8+ years. My passion for everything web related started when I was very young and has continued to today where I make the web 'go'. My clients </p>
-				<p>Since then I have  my experience includes front end development using the latest standards based HTML5 and CSS3 techniques. I have extensive experience working with various CMS software platforms such as Wordpress and Expression Engine.</p>
-				<p>In my free time I play guitar in a band called <a href="http://www.thereasonmusic.com">The Reason</a>. Performing music has allowed me to travel extensively around the world. It has given me the opportunity to see places from a much different perspective than most people have the chance to.</p>
-				<p class="hide-on-print">Feel free to <a href="#" data-reveal-id="myModal" data-animation="fadeAndPop" data-animationspeed="300" data-closeonbackgroundclick="true" data-dismissmodalclass="close-reveal-modal">get in touch!</a></p>
+	<section id="about">
+		<div class="row space">
+			<div class="large-8 large-centered columns">
+				<h3>A Little About Me</h3>
+				<p>For the last 8 years I have been working as a lead website developer with a commitment to staying on top of the latest trends and standards. I am fluent and comfortable working with HTML5, Javascript/jQuery, Backbone.js/Node.js & Ruby. In the last 2 years I have worked with a heavy focus on Responsive Mobile Web design and User Experience/User Interface. I believe in building websites that give the user the best possible experience and meet all client needs in one cohesive design.</p>
+				<p>Outside of the office I play guitar with The Reason and have had the opportunity to travel around the world. That experience has given me a unique perspective that I am able to bring to my development work.</p>
+				<p>For more info or if you have questions, feel free to <a href="#" data-reveal-id="myModal" data-animation="fadeAndPop" data-animationspeed="300" data-closeonbackgroundclick="true" data-dismissmodalclass="close-reveal-modal">get in touch!</a>!</p>
+			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="photo jump" data-stellar-background-ratio="0.5">
+	<div class="photo jump space" data-stellar-background-ratio="0.5">
 		<div class="row">
 			<div class="large-6 small-7 columns right">
-				<h2 class="rw">I've done a lot of cool stuff in my life</h2>
+				<div id="coolStuff">
+					<h2 class="rw noMargin">I've been lucky enough to do a lot of cool stuff in my life...</h2>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="row" id="clients">
+	<section id="balance">
+		<div class="row space">
+			<div class="large-12 columns">
+				<h2 class="cent noMargin">But I also believe in a work + play balance</h2>
+			</div>
+		</div>
+	</section>
+
+	<div class="row space" id="clients">
 		<div class="large-3 columns">
-			<h3 class="rw"><strong>Clients I've Worked With</strong></h3>
+			<h3 class="rw">Clients I've<br />Worked With</h3>
 		</div>
 		<div class="large-9 small-12 columns">
 			<div class="row">
@@ -119,26 +131,29 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 						<li><a href="http://www.cheapeatsguides.com" target="_blank">CheapEats Guides</a></li>
 						<li><a href="http://www.cofps.ca/" target="_blank">Coalition of Family Physicians &amp; Specialists of Ontario</a></li>
 						<li><a href="http://www.ecorazzi.com/" target="_blank">Ecorazzi</a></li>
+						<li><a href="http://www.haytersfarm.com" target="_blank">Hayters Farm</a></li>
+						<li><a href="http://www.newcollege.utoronto.ca/" target="_blank">New College UofT</a></li>
 					</ul>
 				</div>
 				<div class="large-6 small-12 columns">
 					<ul>
-						<li><a href="http://www.newcollege.utoronto.ca/" target="_blank">New College UofT</a></li>
-						<li><a href="http://www.positivelypositive.com/" target="_blank">Positively Positive</a></li>
 						<li><a href="http://www.ousa.ca/" target="_blank">Ontario Undergraduate Student Alliance</a></li>
-						<li><a href="http://www.revmodo.com" target="_blank">Revmodo</a></li>
+						<li><a href="http://www.positivelypositive.com/" target="_blank">Positively Positive</a></li>
 						<li><a href="http://www.helpdeskgeek.com" target="_blank">Help Desk Geek</a></li>
 						<li><a href="http://www.maplemusic.com/" target="_blank">Maple Music</a></li>
-						<li><a href="http://www.audioblood.com/" target="_blank">Audioblood</a></li>
+						<li><a href="http://www.audioblood.com/" target="_blank">Audio Blood</a></li>
+						<li><a href="http://mixtape.beaus.ca/" target="_blank">Beau's All Natural Brewing</a></li>
+						<li><a href="http://thebalconies.ca/" target="_blank">The Balconies</a></li>
+						<li><a href="http://bencaplan.ca/" target="_blank">Ben Caplan</a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="row" id="experience">
+	<div class="row space" id="experience">
 		<div class="large-3 columns">
-			<h3 class="rw"><strong>Technical Experience</strong></h3>
+			<h3 class="rw">Technical Experience</h3>
 		</div>
 		<div class="large-9 small-12 columns">
 			<div class="row">
@@ -156,10 +171,12 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 						<li>HTML5 / CSS3</li>
 						<li>PHP &amp; MySQL</li>
 						<li>SCSS / SASS</li>
+						<li>Javascript / jQuery</li>
 					</ul>
 				</div>
 				<div class="large-4 small-12 columns">
 					<ul>
+						<li>Backbone.js / Node.js</li>
 						<li>GIT / Subversion</li>
 						<li>Adobe Creative Suite</li>
 						<li>Zurb Foundation</li>
@@ -169,9 +186,9 @@ $number_of_days = FLOOR($offset/60/60/24) . " days";
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row space">
 		<div class="large-3 small-12 columns">
-			<h3 class="rw"><strong>Professional Experience</strong></h3>
+			<h3 class="rw">Professional Experience</h3>
 		</div>
 		<div class="large-9 columns">
 			<div class="row">
